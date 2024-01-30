@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 1720880315}
   - component: {fileID: 1720880317}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Jhin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
