@@ -14,9 +14,9 @@ public class me : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        Move(x)
-        Move(y)
+        if(Input.GetKey(KeyCode.W)) transform.position = transform.position + transform.up * Time.deltaTime * speed;
+        else if (Input.GetKey(KeyCode.S)) transform.position = transform.position - transform.up * Time.deltaTime * speed;
+        else if (Input.GetKey(KeyCode.A)) transform.position = transform.position - transform.right * Time.deltaTime * speed;
+        else if (Input.GetKey(KeyCode.D)) transform.position = transform.position + transform.right * Time.deltaTime * speed;
     }
 }
