@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class walking : MonoBehaviour
 {
+    public int move_method;
+
+    public Vector2 speed_vec;
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,18 +15,29 @@ public class walking : MonoBehaviour
     }
 
     // Update is called once per frame
-    public float moveSpeed;
-
     void Update()
     {
-        Move();
-    }
+        if(move_method == 0)
+        {
+            speed_vec = Vector2.zero;
 
-    void Move()
-    {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
-        Vector3 moveVelocity = new Vector3 (x, y, 0) * moveSpeed * Time.deltaTime;
-        this.transform.position += moveVelocity;
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                speed_vec.x += speed;
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                speed_vec.x -= speed;
+            }
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                speed_vec.y += speed;
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                speed_vec.y -= speed;
+            }
+            transform.Translate(speed_vec);
+        }
     }
 }
