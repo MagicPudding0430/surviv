@@ -7,7 +7,7 @@ public class moving : MonoBehaviour
     // Start is called before the first frame update
     public float movementSpeed = 3.0f;
     Vector2 movement = new Vector2();
-    Rigidbody2D rb; // 변경된 변수명
+    Rigidbody2D rb;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,7 +23,6 @@ public class moving : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-
     }
 
     private void FixedUpdate()
@@ -33,6 +32,6 @@ public class moving : MonoBehaviour
 
         movement.Normalize();
 
-        rb.velocity = movement * movementSpeed; // 변경된 변수명
+        rb.velocity = movement * movementSpeed;
     }
 }
