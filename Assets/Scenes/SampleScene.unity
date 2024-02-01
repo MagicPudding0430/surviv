@@ -815,6 +815,7 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &608930252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,6 +829,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+=======
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1001 &637478206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -952,6 +955,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4875029619730442756, guid: 24678afc1526e8a45bbc8a4fc34991c0, type: 3}
   m_PrefabInstance: {fileID: 760749835}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1 &987523217
 GameObject:
@@ -1096,6 +1102,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4875029619730442756, guid: 24678afc1526e8a45bbc8a4fc34991c0, type: 3}
   m_PrefabInstance: {fileID: 1037307749}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1 &1080809668
 GameObject:
@@ -1229,8 +1238,13 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1080809672
 MonoBehaviour:
+=======
+--- !u!1 &1128024230
+GameObject:
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 =======
 --- !u!1 &1128024230
 GameObject:
@@ -1240,6 +1254,7 @@ GameObject:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1080809668}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1247,6 +1262,8 @@ GameObject:
   m_Name: 
   m_EditorClassIdentifier: 
 =======
+=======
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128024231}
@@ -1325,6 +1342,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1001 &1254421492
 PrefabInstance:
@@ -1665,6 +1685,7 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1380485869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1679,6 +1700,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!1 &1768669584
 =======
+=======
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1001 &1395351694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1928,6 +1951,9 @@ Transform:
   m_PrefabInstance: {fileID: 1551311883}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1586420533
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,6 +1963,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1768669586}
   - component: {fileID: 1768669585}
   - component: {fileID: 1768669587}
@@ -1944,15 +1971,21 @@ GameObject:
   m_Name: Gun_2
   m_TagString: Weapon
 =======
+=======
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
   - component: {fileID: 1586420534}
   m_Layer: 0
   m_Name: inventory
   m_TagString: Untagged
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!212 &1768669585
 SpriteRenderer:
@@ -2010,11 +2043,15 @@ SpriteRenderer:
 =======
 --- !u!4 &1586420534
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
+--- !u!4 &1586420534
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1768669584}
   serializedVersion: 2
@@ -2201,6 +2238,8 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 =======
+=======
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
   m_GameObject: {fileID: 1586420533}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -2410,6 +2449,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4875029619730442756, guid: 24678afc1526e8a45bbc8a4fc34991c0, type: 3}
   m_PrefabInstance: {fileID: 3484819183955183684}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
+=======
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 --- !u!1001 &5671351686969077263
 PrefabInstance:
@@ -2602,8 +2644,12 @@ SceneRoots:
   - {fileID: 5671351686969077263}
   - {fileID: 8400892594638651231}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2119416561}
   - {fileID: 1768669586}
+=======
+  - {fileID: 1586420534}
+>>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
 =======
   - {fileID: 1586420534}
 >>>>>>> 61ff9716bf2be21f6e9333d90804e25c8f357284
