@@ -22,7 +22,10 @@ public class GunCtrl : MonoBehaviour
             if(Time.time >= shotTime)
             {
                 Instantiate(bullet, sPoint.position, Quaternion.AngleAxis(angle - 90, Vector3.forward));
-            }   shotTime = Time.time + timeBetweenShots;
+                Debug.Log(shotTime);
+            }
+            shotTime = Time.time + timeBetweenShots;
+            Debug.Log("!");
         }
     }
 }

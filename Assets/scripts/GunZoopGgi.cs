@@ -9,9 +9,7 @@ public class GunZoopGgi : MonoBehaviour
     {
         if (other.CompareTag("Weapon"))
             nearObject = other.gameObject;
-
-        Debug.Log(nearObject.name);
-        Destroy(nearObject);
+            Debug.Log(nearObject.name);
     }
 
     void OnTriggerExit2D(Collider2D other)
